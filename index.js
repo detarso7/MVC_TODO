@@ -1,20 +1,27 @@
 const express = require('express')
+const app = express()
 const exphbs = require('express-handlebars')
 
-const app = express()
+const Task = require('./models/Task')
 
 const conn = require('./db/conn')
+
+const taskRoutes = require('./routes/taskRoutes')
+
 
 app.engine('handlebars', exphbs())
 app.set('view engine', 'handlebars')
 
+
 app.use(express.urlencoded({
     extended: true
 }))
-
 app.use(express.json())
 
 app.use(express.static('public'))
+
+app.use('/', taskRoutes)
+
 
 conn
 .sync()
