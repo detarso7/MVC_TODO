@@ -80,8 +80,7 @@ h1{
 
   .task-list li{
     padding: 0.5em;
-    margin-bottom: 1em;
-    border-bottom: 1px solid #efefef;
+    margin-bottom: .3em;
     display: flex;
     justify-content: space-between;
   }
@@ -91,6 +90,11 @@ h1{
     color: #db4c3f;
     transition: 0.5s;
     font-size: 1.2em;
+  }
+
+  .title.done{
+    color: #b1afae;
+    text-decoration: line-through;
   }
 
   .task-list .title:hover {
@@ -121,4 +125,23 @@ h1{
     border: none;
     background-color: transparent;
     cursor: pointer;
+  }
+
+  .actions p{
+    margin-left: 1em;
+    margin-top: 0.5em;
+    color:#8a1005
+  }
+  .actions p:hover{
+    color:#2c2a29
+  }
+
+  .description{
+    margin-bottom: 1em;
+    padding: 0 1em 1em 1em;
+    border-bottom: 1px solid #efefef;
+  }
+
+  .description{
+    color:#444444
   }
