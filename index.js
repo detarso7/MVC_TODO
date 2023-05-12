@@ -20,7 +20,7 @@ app.use(express.json())
 
 app.use(express.static('public'))
 
-app.use('/', taskRoutes)
+app.use('/tasks', taskRoutes)
 
 
 conn
