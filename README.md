@@ -31,7 +31,8 @@
     <li>Clone este repositório: <code>git clone &lt;URL do repositório&gt;</code></li>
     <li>Navegue até o diretório do projeto: <code>cd &lt;nome do diretório&gt;</code></li>
     <li>Instale as dependências: <code>npm install</code></li>
-    <li>Configure o arquivo conn.js assim:</li>
+    <li>Crie um banco de dados MySQL ou Postgres</li>
+    <li>Configure o arquivo conn.js assim para database MySQL:</li>
     <ol type="a">
           const sequelize = new Sequelize('banco', 'usuario', 'senha', { 
               host: 'localhost',
