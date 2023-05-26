@@ -4,7 +4,6 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>README - Aplicativo TODO</title>
 </head>
 <body>
   <h1>Aplicativo TODO</h1>
