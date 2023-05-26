@@ -9,6 +9,7 @@
   <h1>Aplicativo TODO</h1>
 
   <p>Deploy feito utilizando os serviços gratuitos da Render e o banco de dados hospedado no Elephant</p>
+  https://todo-mvc-c8v3.onrender.com/tasks
 
   <h2>Funcionalidades</h2>
   <ul>
