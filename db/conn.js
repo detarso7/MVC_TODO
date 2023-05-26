@@ -1,8 +1,7 @@
 const {Sequelize} = require('sequelize')
 
-const sequelize = new Sequelize('mvc', 'root', 'Moscas@132', { 
-    host: 'localhost',
-    dialect: 'mysql'
+const sequelize = new Sequelize('postgres://qflunxrb:alOsDAFSJOQt-skR4PJ0L4SuQLyE7mSk@silly.db.elephantsql.com/qflunxrb', { 
+    dialect: 'postgres'
 })
 
 try { 
