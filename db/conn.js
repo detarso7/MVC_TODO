@@ -1,11 +1,11 @@
 const {Sequelize} = require('sequelize')
 
-const sequelize = new Sequelize(
-    'postgres://qflunxrb:alOsDAFSJOQt-skR4PJ0L4SuQLyE7mSk@silly.db.elephantsql.com/qflunxrb', {
-    dialect: 'postgres'
+const sequelize = new Sequelize('mvc', 'root', 'Moscas@132', { 
+    host: 'localhost',
+    dialect: 'mysql'
 })
 
-try {
+try { 
 
     sequelize.authenticate()
     console.log('Banco conectado!')
